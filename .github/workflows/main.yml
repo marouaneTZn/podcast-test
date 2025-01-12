@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Run Feed Generator
-        uses: planetoftheweb/podcast-feed-generator@main
+        uses: marouaneTZn/podcast-generator@main
